@@ -43,3 +43,4 @@ vessel or an entire fleet, Anchors can help you streamline your data management 
   - Servlets
   - Java
   - JDBC Connectivity
+  - MySQL ( Also worked on Oracle 21c )
