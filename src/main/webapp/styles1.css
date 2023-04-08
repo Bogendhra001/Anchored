@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 300px -10px rgba(0,0,0,0.75);
+
+    width: 90%;
+    border-radius: 20px;
+    margin: 0.8em auto;
+}
+
+.middle-lane {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+    height: 64px;
+    align-self: center;
+    /* box-shadow: 0px 0px 26px 0.5px rgba(0,0,0,0.75); */
+}
+
+.pro-title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 1em;
+    width: fit-content;
+}
+
+.logout-section {
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.logout-section button {
+    padding: 1em;
+    border-radius: 14px;
+    border: none;
+    font-size: 16px;
+}
+
+.logout-section button:hover {
+    cursor: pointer;
+}
+
+.container {
+    min-height: 88vh;
+    height: fit-content;
+    width: 96%;
+    background-color: #fff;
+    margin: auto;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    align-self: center;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.sailor-section, .boat-section, .reserve-section, .view-section {
+    margin: 44px 0;
+}
+
+.sailor-settings, .boat-settings, .reserve-settings, .view-settings {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+}
+
+.remove-section {
+    display: none;
+}
+
+.add-remove-title {
+    margin: 20px 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add-remove {
+    align-self: center;
+    height: 30px;
+}
+
+.add-inp, .remove-inp {
+    font-size: 18px;
+    padding: 4px;
+    margin: 4px 8px;
+}
+
+.submit-btn {
+    padding: 8px 12px;
+    align-self: center;
+}
+
+.search-bar {
+    width: 60%;
+}
+
+input[type="text"] {
+    outline: none;
+}
+
+.login-section {
+    border: black solid 1px ;
+    height: 50vh;
+    width: 40%;
+    align-self: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-inp-field {
+    width: 60%;
+    /* margin-left: 10%; */
+    margin: auto;
+}
+
+.login-content {
+    width: 70%;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    /* border: black solid 1px; */
+    padding-bottom: 20px;
+}
+
+.login-btn-form {
+    width: 6em;
+    height: 40px;
+    margin-left: auto;
+    align-self: flex-end;
+}
+
+.submit-field {
+    width: 71.8%;
+    display: flex;
+}
+
+
+table, th, td {
+  border:1px solid black;
+}
+
+
+th{
+	background-color: #fff;
+}

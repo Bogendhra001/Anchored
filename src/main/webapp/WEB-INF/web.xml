@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>
+  	<servlet-name>addsailor</servlet-name>
+  	<servlet-class>cscorner.Addsailors</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addsailor</servlet-name>
+  	<url-pattern>/url-addsailors</url-pattern>
+  </servlet-mapping>
+  
+  
+
+  <servlet>
+  	<servlet-name>addboat</servlet-name>
+  	<servlet-class>cscorner.AddBoat</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>addboat</servlet-name>
+  	<url-pattern>/url-addboat</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>reserve</servlet-name>
+  	<servlet-class>cscorner.Reserve</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>reserve</servlet-name>
+  	<url-pattern>/url-reserve</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>authen</servlet-name>
+  	<servlet-class>cscorner.Authen</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>authen</servlet-name>
+  	<url-pattern>/url-authen</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+ <servlet>
+  	<servlet-name>search</servlet-name>
+  	<servlet-class>cscorner.Search</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>search</servlet-name>
+  	<url-pattern>/url-search</url-pattern>
+  </servlet-mapping>
+  
+  
+  
+  
+  
+ 
+</web-app>
