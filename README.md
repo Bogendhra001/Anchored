@@ -14,6 +14,11 @@ vessel or an entire fleet, Anchors can help you streamline your data management 
  - Database with connector driver
  - Browser
  
+ ## Screenshots:
+ ![image](https://user-images.githubusercontent.com/26852582/230705761-e5d4a276-8bfc-49ba-998b-932cdfffdee0.png)
+![image](https://user-images.githubusercontent.com/26852582/230705767-49e714ab-7518-49c7-8865-d845be167f69.png)
+
+ 
  ## Project-Structure:
  ![image](https://user-images.githubusercontent.com/26852582/230705469-68ab5d1b-2cf2-439f-bbf0-bd36dc7bde26.png) 
 
